@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="veiwport" content="with=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/Mosque logo - Made with PosterMyWall (1).png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/prayers.html">Prayer Timetable</a></li>
+              <li><a href="/events.html">Events</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"></i>
+    </nav>
+
+<div class="text-box">
+  <section class="about-section">
+    <div class="container">
+      <h2>About Masjid Al-Huda</h2>
+      <p>Masjid Al-Huda is a mosque located in the heart of Leicester. Our mission is to provide a welcoming and inclusive space for all members of the community to come together in prayer and to learn about the teachings of Islam.</p>
+      <p>Our mosque offers a range of services and programs for people of all ages, including daily prayers, Quran classes, and community events.</p>
+      <p>We strive to create an environment that promotes unity, compassion, and understanding among people of different backgrounds and beliefs.</p>
+    
+</div>
+
+</section>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html> 

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="veiwport" content="with=device-width, initial-scale=1.0">
+    <title>Masjid Al Huda Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/Mosque logo - Made with PosterMyWall (1).png"></a>
+        <div class="nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about.html">About</a></li>
+              <li><a href="/prayers.html">Prayer Timetable</a></li>
+              <li><a href="/events.html">Events</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Welcome to Masjid AL-Huda</h1>
+    <p>We are delighted to have you visit our mosque. Our goal is to provide a peaceful and welcoming environment where Muslims can come together for prayer, education, and community events. We offer a variety of programs for children, youth, and adults, and we encourage everyone to get involved and make a positive impact in our community. Please explore our website to learn more about our services, events, and how you can support our mission.</p>
+    
+
+</div>
+
+</section>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html> 
